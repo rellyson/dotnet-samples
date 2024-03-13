@@ -1,0 +1,17 @@
+root = true
+
+# Core configuration
+
+[*.cs]
+indent_size = 4
+indent_style = space
+tab_width = 4
+end_of_line = lf
+
+# .NET configuration
+dotnet_style_qualification_for_method = true
+
+# Roslynator configuration
+roslynator_analyzers.enabled_by_default = true
+roslynator_refactorings.enabled = true
+roslynator_compiler_diagnostic_fixes.enabled = true
