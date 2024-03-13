@@ -4,7 +4,7 @@ using HelloWebApi.Services.Interfaces;
 namespace HelloWebApi.Controllers;
 
 [ApiController]
-[Route("/api/greetings")]
+[Route("/api/[controller]")]
 public class GreetingController(IGreetingService GreetingService) : ControllerBase
 {
     private readonly IGreetingService _greetingService = GreetingService;
